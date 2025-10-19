@@ -65,10 +65,10 @@ function convertColor() {
   }
 
   const vegas = [
-    (r / 255).toFixed(3),
-    (g / 255).toFixed(3),
-    (b / 255).toFixed(3),
-    (alpha / 255).toFixed(3)
+    r / 255,
+    g / 255,
+    b / 255,
+    alpha / 255
   ];
 
   document.getElementById("vegasResult").textContent = vegas.join(", ");
