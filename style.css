@@ -1,0 +1,48 @@
+body {
+  background-color: #121212;
+  color: #f0f0f0;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #000;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label, select, input, button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  background: #2a2a2a;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #3a3a3a;
+}
+
+#output {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#vegasResult {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #00ffcc;
+}
