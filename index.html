@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vegas Pro Color Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>vegas pro color converter i guess</h1>
+
+    <label for="inputType">Input Type:</label>
+    <select id="inputType">
+      <option value="rgb">RGB</option>
+      <option value="hex">HEX</option>
+      <option value="hsl">HSL</option>
+    </select>
+
+    <div id="inputFields"></div>
+
+    <label for="alpha">Alpha (0–255):</label>
+    <input type="number" id="alpha" value="255" min="0" max="255" />
+
+    <button onclick="convertColor()">Convert</button>
+
+    <div id="output">
+      <h2>Vegas Format:</h2>
+      <p id="vegasResult">—</p>
+      <button onclick="copyResult()">📋 Copy</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
